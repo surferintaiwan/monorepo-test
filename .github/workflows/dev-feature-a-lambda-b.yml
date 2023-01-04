@@ -1,4 +1,4 @@
-name: development@CI/CD
+name: paths-filter-dev-feature-a-lambda-b@CI/CD
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
     paths: 
       - 'feature-a/lambda-b'
 jobs:
-  development-feature-a-lambda-b:
+  dev-feature-a-lambda-b:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

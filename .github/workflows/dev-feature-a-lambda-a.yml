@@ -1,4 +1,4 @@
-name: paths-filter-dev@CI/CD
+name: paths-filter-dev-feature-a-lambda-a@CI/CD
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
     paths: 
       - feature-a/lambda-a
 jobs:
-  development-feature-a-lambda-a:
+  dev-feature-a-lambda-a:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

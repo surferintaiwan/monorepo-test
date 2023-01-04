@@ -1,0 +1,27 @@
+name: development@CI/CD 
+on:
+  push:
+    branches:
+      - development
+jobs:
+  working-directory-development-feature-a-lambda-a:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: feature-a/lambda-a
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: echo 'running development feature-a lambda-a'
+      - run: echo 'running development feature-a lambda-a'
+  working-directory-development-feature-a-lambda-b:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: feature-a/lambda-b
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: echo 'running development feature-a lambda-b'
+      - run: echo 'running development feature-a lambda-b'
+No newline at end of file

@@ -13,11 +13,12 @@ jobs:
         working-directory: feature-a/lambda-a
     steps:
       run: echo 'running development feature-a lambda-a'
-
+      run: echo 'running development feature-a lambda-a'
   development-feature-a-lambda-b:
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: feature-a/lambda-b
     steps:
+      run: echo 'running development feature-a lambda-b'
       run: echo 'running development feature-a lambda-b'

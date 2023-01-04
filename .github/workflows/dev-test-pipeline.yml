@@ -12,6 +12,8 @@ jobs:
       run:
         working-directory: feature-a/lambda-a
     steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
       - run: echo 'running development feature-a lambda-a'
       - run: echo 'running development feature-a lambda-a'
   development-feature-a-lambda-b:
@@ -20,5 +22,7 @@ jobs:
       run:
         working-directory: feature-a/lambda-b
     steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
       - run: echo 'running development feature-a lambda-b'
       - run: echo 'running development feature-a lambda-b'

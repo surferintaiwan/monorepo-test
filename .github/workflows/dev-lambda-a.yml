@@ -1,0 +1,14 @@
+name: dev-lambda-a@CI/CD
+on:
+  push:
+    branches:
+      - development
+    paths: 
+      - lambda-a/**
+jobs:
+  dev-lambda-a:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: echo 'running dev lambda-a'

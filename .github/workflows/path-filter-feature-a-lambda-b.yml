@@ -6,7 +6,7 @@ on:
     paths: 
       - feature-a/lambda-b/**
 jobs:
-  dev-feature-a-lambda-a:
+  dev-feature-a-lambda-b:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

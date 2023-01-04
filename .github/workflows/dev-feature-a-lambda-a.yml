@@ -1,0 +1,31 @@
+# do different things based on the path of the file that was changed.
+
+name: development@CI/CD 1
+on:
+  push:
+    branches:
+      - development
+    paths: 
+      - 'feature-a/lambda-a'
+jobs:
+  development-feature-a-lambda-a:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: echo 'running development feature-a lambda-a'
+name: development@CI/CD 2
+on:
+  push:
+    branches:
+      - development
+    paths: 
+      - 'feature-a/lambda-b'
+jobs:
+  development-feature-a-lambda-b:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: echo 'running development feature-a lambda-b'
+      - run: echo 'running development feature-a lambda-b'

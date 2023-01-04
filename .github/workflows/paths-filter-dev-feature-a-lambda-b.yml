@@ -1,4 +1,4 @@
-name: paths-filter-dev-feature-a-lambda-b@CI/CDd
+name: paths-filter-dev-feature-a-lambda-b@CI/CD
 on:
   push:
     branches:

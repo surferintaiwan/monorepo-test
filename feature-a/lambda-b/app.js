@@ -1,1 +1,1 @@
-console.log('here is feature-a/lambda-b/app.js 22222')
+console.log('here is feature-a/lambda-b/app.js 222')

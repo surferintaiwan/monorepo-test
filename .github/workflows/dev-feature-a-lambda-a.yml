@@ -1,4 +1,4 @@
-name: development@CI/CD
+name: paths-filter-dev@CI/CD
 on:
   push:
     branches:

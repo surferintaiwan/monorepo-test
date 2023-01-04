@@ -13,7 +13,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
       - run: echo 'running development feature-a lambda-a'
-      - run: echo 'running development feature-a lambda-a'
   working-directory-development-feature-a-lambda-b:
     runs-on: ubuntu-latest
     defaults:
@@ -23,5 +22,3 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
       - run: echo 'running development feature-a lambda-b'
-      - run: echo 'running development feature-a lambda-b'
-No newline at end of file

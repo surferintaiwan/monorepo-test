@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - development
-    paths: 
-      - 'feature-a/lambda-a'
 jobs:
   dev-feature-a-lambda-a:
     runs-on: ubuntu-latest

@@ -1,4 +1,4 @@
-name: working-directory-dev 
+name: working-directory-dev@CI/CD
 on:
   push:
     branches:

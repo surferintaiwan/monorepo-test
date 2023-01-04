@@ -1,1 +1,1 @@
-console.log('here is lambda-b/app.js 11111')
+console.log('here is lambda-b/app.js')

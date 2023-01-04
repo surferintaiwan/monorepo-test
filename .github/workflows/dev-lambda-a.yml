@@ -1,12 +1,14 @@
-name: test-lambda-b@CI/CD
+name: dev-lambda-a@CI/CD
 on:
   push:
     branches:
-      - test
+      - development
+    paths: 
+      - lambda-a/**
 jobs:
-  test-lambda-b:
+  dev-lambda-a:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - run: echo 'running test lambda-b'
+      - run: echo 'running dev lambda-a'

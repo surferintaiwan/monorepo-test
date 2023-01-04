@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - test
+    paths:
+      - lambda-a/**
 jobs:
   test-lambda-a:
     runs-on: ubuntu-latest

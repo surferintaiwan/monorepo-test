@@ -1,0 +1,1 @@
+console.log('here is feature-a/lambda-a/app.js')
